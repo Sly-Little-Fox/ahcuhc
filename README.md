@@ -5,12 +5,12 @@ The antivirus against Chucha virus.
 
 `ahcuhc --flags`
 
-## Flags
+## Flags (Support is disabled yet)
 
 `-q`, `--quick` - Searches chucha in common places.
 
 `-f`, `--full` - Searches chucha on your entire PC (Slow).
 
-`-c`, `--custom` - Searches chucha in custom folder
+`-c`, `--custom` - Searches chucha in custom folder.
 
 `--check` - Checks if the file is infected by Chucha or not.
