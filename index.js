@@ -50,7 +50,7 @@ function read(dir) {
 }
 
 if (chuchas == 0) {
-  system.execSync(`notify-send --icon="/home/all/Pictures/shield.svg" "No chuchas found! Good for you!"`);
+  system.execSync(`notify-send --icon="/path/to/icon" "No chuchas found! Good for you!"`);
 } else {
   try {
     try {
@@ -73,7 +73,7 @@ if (chuchas == 0) {
       errors.push(error);
     }
     log('Quarantined chuchas!');
-    system.execSync(`notify-send --icon="/home/all/Pictures/shield.svg" "Quarantine file with ${chuchas.length} chucha(s) created in ${__dirname}!"`);
+    system.execSync(`notify-send --icon="/path/to/icon" "Quarantine file with ${chuchas.length} chucha(s) created in ${__dirname}!"`);
   } catch (error) {
     errors.push(error);
   }
